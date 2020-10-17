@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+b
+{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.3rem;
+}
+h1
+{
+    font-family: 'Russo One', sans-serif;
+    font-style: italic;
+    color: navy;
+}
