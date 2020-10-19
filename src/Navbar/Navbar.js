@@ -12,17 +12,17 @@ const Navbar = (props) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-                <li className="nav-item active mr-5 ml-4">
+                <li className="nav-item active mr-5 mb-2 mt-2 ml-5">
                     <OrderHistory name={props.name}/>
                 </li>
-                <li className="nav-item ml-4 mr-5">
+                <li className="nav-item ml-4 mr-5 mb-2 mt-2">
                     <Costs />
                 </li>
-                <li className="nav-item ml-2 pl-5">
+                <li className="nav-item mt-2 mr-lg-5">
                     <h1 className="display-4">Welcome {props.name}</h1>
                 </li>
-                <li className="nav-item ml-5 pl-5 mt-1">
-                    <button type="button" className="btn btn-outline-warning py-3 px-2" onClick={props.logout}>Log Out</button>
+                <li className="nav-item ml-lg-5 mt-1">
+                    <button type="button" className="btn btn-outline-warning mt-3" onClick={props.logout}>Log Out</button>
                 </li>
             </ul>
         </div>
